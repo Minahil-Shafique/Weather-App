@@ -15,7 +15,7 @@ function Home() {
   const [city, setCity] = useState("");
   const [icon, setIcon] = useState("");
   const [weatherData, setWeatherData] = useState(null);
-  const apiKey = "a3f838656b3d1f1e7e80bb470fd62bcb";
+  const apiKey = "<API-KEY>";
 
   const iconMapping = {
     "01d": clear,
